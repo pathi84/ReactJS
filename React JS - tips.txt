@@ -1,0 +1,51 @@
+>  npx create-react-app hello-world 	-> to create new project
+
+>  npm start
+    Starts the development server.
+
+>  npm run build
+    Bundles the app into static files for production.
+
+>  npm test
+    Starts the test runner.
+
+>  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+> type nul > index.css --> create new file 
+
+JSX
+
+> Attributes -  add custom attribute, we need to use data- prefix.
+
+> JavaScript Expressions - We just need to wrap it with curly brackets {}
+
+> We cannot use if else statements inside JSX, instead we can use conditional (ternary) expressions
+
+Styling
+
+> set inline styles, we need to use camelCase syntax. React will also automatically append px
+
+Comments
+
+> When writing comments, we need to put curly brackets {} 
+
+Tfi389
+
+Naming Convention
+
+> HTML tags always use lowercase tag names, while React components start with Uppercase.
+
+> Note - You should use className and htmlFor as XML attribute names instead of class and for.
+
+> Since JSX is JavaScript, identifiers such as class and for are discouraged as XML attribute names. Instead, React DOM components expect 	  DOM property names such as className and htmlFor, respectively.
+
+
+Stateless Example
+
+> This component is owner of Header and Content. We are creating Header and Content separately and just adding it inside JSX tree in our App component. Only App component needs to be exported.
+
+Stateful Example
+
+
